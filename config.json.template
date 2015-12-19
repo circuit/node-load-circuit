@@ -1,0 +1,27 @@
+{
+    "domain": "localhost:8094",
+    "admin" : {
+        "email": "admin email",
+        "password": "admin password"            
+    },
+    "nrUsers": 10,
+    "excludeEmails": [
+        "optionally add emails to exclude"
+    ],
+    "conversations": {
+        "group": 8,
+        "open": 4,
+        "posts": {
+            "min": 2,
+            "max": 8
+        },
+        "replies": {
+            "min": 0,
+            "max": 10
+        },
+        "likes": 0.4,
+        "flags": 0.2
+    },
+    "sdkLogLevel": "error",
+    "filesPath": "./files/"
+}

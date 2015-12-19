@@ -1,0 +1,17 @@
+{
+  "name": "node-load-circuit",
+  "version": "1.0.0",
+  "description": "Example node app to load Circuit system",
+  "main": "server.js",
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "file-api": "^0.10.4",
+    "rx": "^4.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Unify Inc.",
+  "license": "MIT"
+}
