@@ -31,4 +31,20 @@ Edit config.json
  If you do not have wget installed you can use curl to download circuit.tgz
 ```bash
 curl "https://circuitsandbox.net/circuit.tgz" -o "circuit.tgz"
+``` 
+
+
+## Output ##
+
+```bash
+>./start.sh 
+01:08:38.306Z  INFO app: Logged on as admin@unify.com
+01:08:38.417Z  INFO app: Created 4 open conversation(s)
+01:08:38.448Z  INFO app: Created 8 group conversation(s)
+01:08:39.046Z  INFO app: Created 56 text message(s)
+01:08:39.473Z  INFO app: Created 49 replies
+01:08:39.641Z  INFO app: Liked 34 message(s)
+01:08:39.780Z  INFO app: Flagged 11 message(s)
+01:08:39.780Z  INFO app: Done. Press Ctrl-C to exit
 ```
+ 
