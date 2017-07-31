@@ -53,7 +53,7 @@ let fs = require('fs');
 let FileAPI = require('file-api');
 
 // Circuit SDK
-let Circuit = require('circuit-node-sdk');
+let Circuit = require('circuit-sdk');
 
 // Setup bunyan logger
 Circuit.setLogger(sdkLogger);
