@@ -4,7 +4,7 @@
   "description": "Example node app to load Circuit system",
   "main": "server.js",
   "dependencies": {
-    "circuit-sdk": "^1.2.1200",
+    "circuit-sdk": "latest",
     "bunyan": "^1.5.1",
     "file-api": "^0.10.4",
     "rx": "^4.0.7"
